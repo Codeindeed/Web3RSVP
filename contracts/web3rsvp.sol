@@ -10,7 +10,7 @@ uint256 maxCapacity,
 uint256 deposit,
 string  eventDataCID
 );
-event  NewRsvp(bytes32 eventId, address attendeeAddress);
+event   NewRsvp(bytes32 eventId, address attendeeAddress);
 event confirmedAttendee(bytes32 eventId, address attendeeAddress);
 event DepositsPaidOut (bytes32 eventId);
 
