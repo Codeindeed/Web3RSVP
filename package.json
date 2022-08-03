@@ -1,0 +1,20 @@
+{
+  "name": "web3rsvp",
+  "version": "1.0.0",
+  "description": "\"web3 resvp event list\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "script": "node scripts/run.js"
+  },
+  "author": "\"Alex  Favour\"",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-chai-matchers": "^1.0.2",
+    "@nomicfoundation/hardhat-toolbox": "^1.0.2",
+    "@nomiclabs/hardhat-ethers": "^2.1.0",
+    "chai": "^4.3.6",
+    "ethers": "^5.6.9",
+    "hardhat": "^2.10.1"
+  }
+}
